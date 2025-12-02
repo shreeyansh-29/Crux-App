@@ -4,7 +4,7 @@
  * module focuses on orchestration and normalization.
  */
 import { queryCruxSingle } from './cruxApiClient';
-import { normalizeMetrics } from '../components/utils';
+import { normalizeMetrics } from './utils';
 
 /**
  * Request CrUX for multiple urls (mirrors backend behavior).
