@@ -25,7 +25,11 @@ Each component elements are created using styled-component.
 
 Features: 
 
-```  
+```
+## Live Demo
+
+https://github.com/shreeyansh-29/Crux-App/blob/main/src/assets/Crux-app.gif
+
   
 ## Prerequisites
 1.IDE (visual studio)  
