@@ -7,7 +7,7 @@ export default function SearchForm({ onSearch, loading = false }) {
   function handleSubmit(e) {
     e && e.preventDefault();
     const urls = urlsText
-      .split(',')
+      .split(/\s*[,\n]\s*/)
       .map(s => s.trim())
       .filter(Boolean);
     if (!urls.length) return;

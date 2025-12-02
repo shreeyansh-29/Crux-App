@@ -1,4 +1,3 @@
-// src/App.js
 import { Suspense, lazy } from 'react';
 
 const Home = lazy(() => import('./pages/Home'));

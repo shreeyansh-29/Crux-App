@@ -8,15 +8,17 @@ const ResultsTable = lazy(() => import('../components/ResultsTable'));
 export default function Home() {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
 
   async function handleSearch(urls) {
     if (!Array.isArray(urls) || urls.length === 0) return;
     setLoading(true);
+    setError(null);
     try {
       const resp = await queryCrux(urls, 'origin');
       setData(resp);
     } catch (err) {
-      console.error(err);
+      setError(err && err.message ? err.message : String(err));
     } finally {
       setLoading(false);
     }
