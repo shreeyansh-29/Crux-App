@@ -1,6 +1,6 @@
 # Crux App
 
-Live URL: https://video-player-teal-six.vercel.app/
+Live URL: https://crux-app-rho.vercel.app/
 
 ## Getting started
 ```  
@@ -26,9 +26,6 @@ Each component elements are created using styled-component.
 Features: 
 
 ```
-## Live Demo
-![Crux App Demo](src/assets/Crux-app.gif)
-
   
 ## Prerequisites
 1.IDE (visual studio)  
