@@ -5,7 +5,7 @@ Live URL: https://crux-app-rho.vercel.app/
 ## Getting started
 ```  
 git clone https://github.com/shreeyansh-29/Crux-App
-cd Video-Player
+cd Crux-App
 npm install  
 ```  
 Running the below command will start the application  
